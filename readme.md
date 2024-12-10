@@ -16,7 +16,7 @@ Optimizer: 8 bit Adam
 weight_decay = 0.01
 
 ## DrDomedag/LocoLamav3
-Description: An ambitious attempt to train on the full Tome dataset. The fact that the overhead ended up being around one hour stopped this attempt, but the model is still not terrible.
+Description: An ambitious attempt to train on the full Tome dataset. The fact that the overhead ended up being around one hour stopped this in its tracks, but the model is still not terrible.
 
 Trained on: The Tome (https://huggingface.co/datasets/arcee-ai/The-Tome)
 
