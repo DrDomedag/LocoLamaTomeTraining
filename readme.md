@@ -60,7 +60,7 @@ warmup steps: 100
 ## Main UI
 The UI/application is hosted at the below HuggingFace space:
 
-https://huggingface.co/spaces/DrDomedag/LocoLama2 (set up with DrDomedag/LocoLamav3)
+https://huggingface.co/spaces/DrDomedag/LocoLama2 (set up with T3lli/HumanDialogue)
 
 ## Running it locally
 Since HuggingFace can be moody at times, using this repository will allow you to run the UI locally:
@@ -68,6 +68,7 @@ Since HuggingFace can be moody at times, using this repository will allow you to
 https://github.com/DrDomedag/LocoLamaInferenceApp (set up with DrDomedag/LocoLamav3)
 
 ##Backup UI
-While it does not have the full accoutrements of the main UI, this Gradio based UI for some inexplicable reason seems to suffer fewer issues with the HuggingFace model not responding in time.
-https://huggingface.co/spaces/T3lli/iris (set up with T3lli/HumanDialog)
+While it does not have the full accoutrements of the main UI, this Gradio based UI for some inexplicable reason seems to suffer fewer issues with the HuggingFace model not responding in time:
+
+https://huggingface.co/spaces/T3lli/iris (set up with T3lli/HumanDialogue)
 
