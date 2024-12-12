@@ -7,8 +7,6 @@ We have trained three models in our exploratory study of the possibilities of fi
 ## Common hyperparameters:
 Base lr: 2e-4
 
-r=16
-
 gradient accumulation steps: 4
 
 Optimizer: 8 bit Adam
@@ -24,6 +22,8 @@ Training epochs: ~0.1
 
 Hyperparameters emphasising speed:
 
+r=16
+
 4-bit quantization
 
 warmup steps: 5
@@ -37,6 +37,8 @@ Trained on: DIALOGSum (https://huggingface.co/datasets/knkarthick/dialogsum)
 
 Training epochs: 10 epochs
 
+r=16
+
 No quantization (16 bit floating point parameters)
 
 lr-scheduler-type: linear
@@ -49,6 +51,8 @@ Description: Also trained on the smaller dataset but for a shorter time and with
 Trained on: DIALOGSum (https://huggingface.co/datasets/knkarthick/dialogsum)
 
 Training epochs: 3 epochs
+
+r=32
 
 No quantization (16 bit floating point parameters)
 
