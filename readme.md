@@ -31,7 +31,7 @@ warmup steps: 5
 lr-scheduler-type: linear
 
 ## T3lli/Test
-Description: Using a more fit-for-purpose dataset containing human dialogue, the speed of training it enabled drove us to train it for a full 10 epochs, leading to significant forgetfulness and loss of performance.
+Description: Using a more fit-for-purpose dataset containing human dialogue, the speed of training it enabled drove us to train it for a full 10 epochs. However, this led to significant forgetfulness and loss of performance.
 
 Trained on: DIALOGSum (https://huggingface.co/datasets/knkarthick/dialogsum)
 
@@ -45,7 +45,7 @@ lr-scheduler-type: linear
 
 warmup steps: 5
 
-## T3lli/HumanDialog
+## DrDomedag/HumanDialoguev2
 Description: Also trained on the smaller dataset but for a shorter time and with slightly tuned hyperparameters, this is subjectively our best performing model.
 
 Trained on: DIALOGSum (https://huggingface.co/datasets/knkarthick/dialogsum)
@@ -64,15 +64,15 @@ warmup steps: 100
 ## Main UI
 The UI/application is hosted at the below HuggingFace space:
 
-https://huggingface.co/spaces/DrDomedag/LocoLama2 (set up with T3lli/HumanDialogue)
+https://huggingface.co/spaces/DrDomedag/LocoLama2 (set up with DrDomedag/HumanDialoguev2)
 
 ## Running it locally
 Since HuggingFace can be moody at times, using this repository will allow you to run the UI locally:
 
-https://github.com/DrDomedag/LocoLamaInferenceApp (set up with DrDomedag/LocoLamav3)
+https://github.com/DrDomedag/LocoLamaInferenceApp (set up with DrDomedag/HumanDialoguev2)
 
 ## Backup UI
 While it does not have the full accoutrements of the main UI, this Gradio based UI for some inexplicable reason seems to suffer fewer issues with the HuggingFace model not responding in time:
 
-https://huggingface.co/spaces/T3lli/iris (set up with T3lli/HumanDialogue)
+https://huggingface.co/spaces/T3lli/iris (set up with DrDomedag/LocoLamav3)
 
